@@ -1,0 +1,128 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+#header-container,
+#info-container{
+  background-color: #99c84a;
+  color:white;
+
+}
+
+#menu-container {
+  background-color: #f7f7f9;
+}
+
+.btn.btn-platzi {
+background-color: #99c84c;
+color:white;
+}
+
+.btn.btn-platzi:hover {
+  background-color: #8ab542;
+}
+
+input.form-control:focus{
+  border-color: #99c84a;
+}
+
+#header-container .login {
+  color:white;
+}
+
+#header-container .navbar-toggler {
+  color: white;
+}
+
+#search-bar {
+  padding: 1em;
+}
+
+#carousel-example-generic img {
+  margin:0 auto;
+}
+
+#info-container h4{
+  text-align:center;
+}
+
+#info-container img {
+  margin: 0 auto;
+  margin-top: 2em;
+
+}
+
+#footer-container {
+  background-color: #1c3643;
+  color: white;
+  padding: 3em 0;
+}
+
+#footer-container h4 {
+  font-size: 16px;
+}
+
+#footer-container .nav-link {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #footer-container [class*="col-"] {
+    margin-bottom: 2em;
+  }
+}
+
+button{
+  background-color: #0080FF;
+  color:white;
+}
+
+#breadcrumbs-container .breadcrumb {
+  background-color: white;
+  padding-left: 0;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item {
+  color: #1c3643;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active {
+  color: #95a5a6;
+}
+
+#breadcrumbs-container .breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+}
+
+#productos-container .list-group-item.list-group-action.active{
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#productos-container .list-group+.list-group{
+  margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+
+  .listado-productos {
+    margin-top: 2em;
+  }
+  .listado-productos .card-img-top {
+    width: 100%;
+  }
+}
+
+#productos-container {
+  margin-bottom: 2em;
+}
+
+#paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  background-color: #99c84a;
+  border-color: #99c84a;
+  color:white;
+}
+
+#paginator-container .page-item:not(.active):not(.disabled) .page-link{
+  color: #99c84a;
+}
