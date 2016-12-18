@@ -2,6 +2,25 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+header{
+  font-family: 'Raleway', sans-serif;
+}
+
+#menu-container{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#carousel.container{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+#info-container{
+  font-family: 'Raleway', sans-serif;
+}
+
 
 .btn.btn-platzi:hover {
   background-color: #8ab542;
